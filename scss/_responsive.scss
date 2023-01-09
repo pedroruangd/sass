@@ -1,0 +1,32 @@
+@media (max-width:768px) {
+
+    .container {
+        padding: 20px;
+    }
+    .blocks ul {
+        display: block;
+    }
+    .container .blocks li {
+        display: block;
+        width: 100%;
+    }
+    p, h1, h2, h3, h4, h5 {text-align: center;}
+
+
+}
+
+@media (max-width:480px) {
+
+    .blocks {
+        padding:0;
+        margin: 2rem 0;
+       }
+       .blocks li {
+        margin: 1.5rem 0;
+       }
+       .cars img {
+        margin-bottom: 20px;
+       }
+    
+
+}

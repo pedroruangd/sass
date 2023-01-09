@@ -7,20 +7,16 @@
     ul {
         list-style-type: none;
         font-size: $font-small;
-        display: flex;
-        justify-content: space-between;
-        height: 250px;
         padding: 1rem 0;
         width: 100%;
     }
     li {
         color: $color-02;
-        display: block;
-        margin: $space-default auto;
+        display: inline-block;
+        margin: $space-default 1.5%;
         width: 30%;
         .img-container {
             display: block;
-            height: 200px;
             overflow: hidden;
             width: 100%;
         }
@@ -37,4 +33,8 @@
             font-weight: 700;
         }
     }
+}
+
+footer {
+    bottom: 0;
 }
