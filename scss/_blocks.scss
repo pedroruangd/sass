@@ -32,6 +32,8 @@
         font-size: $font-small;
         padding: 1rem 0;
         width: 100%;
+        display: block;
+        float: left;
     }
 
     &__item {
@@ -40,10 +42,12 @@
         display: block;
         margin: $space-default .75rem;
         text-align: center;
-        width: calc(99% / 3 - 15px);
+        width: calc(99% / 3 - 60px);
+        background-color: #fff;
+        padding: 20px;
 
         @media (max-width: $tablet) {
-            width: calc(99% - 30px);
+            width: calc(99% - 60px);
         }
 
     }
@@ -53,6 +57,7 @@
         height: 15rem;
         overflow: hidden;
         width: 100%;
+        margin-bottom: 20px;
         @media (max-width: $tablet) {
             height: 20rem;
         }
